@@ -1,0 +1,6 @@
+@Core123_HostAddress = http://localhost:5005
+
+GET {{Core123_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
