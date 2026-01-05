@@ -28,7 +28,7 @@ namespace Core123.Controllers
         [HttpGet]
         public IActionResult GetLeaves()
         {
-            return Ok(_context.LeaveRequests.ToList());
+            //return Ok(_context.LeaveRequests.ToList());
         }
 
         [HttpPut("{id}")]
